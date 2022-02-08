@@ -1,0 +1,64 @@
+'''
+IPL Dashboard
+'''
+
+noofplayers = int(input("Enter num.. of players"))
+ipldashboard=[]
+iplheader=['playername','team','season','matches','runs','wickets']
+ipldashboard.append(iplheader)
+for i in range (noofplayers):
+    name=input("Enter name")
+    team = input("Enter team")
+    season = int(input("Enter season"))
+    matches =int(input("Enter no of matches played"))
+    runs = int(input("Enter no of runs scored"))
+    wickets = int(input("Enter no of wickets taken"))
+    player=[name,team,season,matches,runs,wickets]
+    ipldashboard.append(player)
+
+print("ipl dashboard")
+print(ipldashboard)
+
+'''
+1. Find the total of runs scored for a specific season
+'''
+season = int(input("Enter a season"))
+sesonwisetotal = 0
+sesonwisetotalwickets = 0
+highestwicket = 0
+highestwickettaker=''
+highestruns = 0
+highestrunsgetter=''
+
+for i in range(len(ipldashboard)):
+    if (i==0):
+        continue
+    if (ipldashboard[i][2]==season):
+        runs=ipldashboard[i][4]
+        sesonwisetotal = sesonwisetotal +runs
+        runs = ipldashboard[i][4]
+        wickets = ipldashboard[i][5]
+        sesonwisetotalwickets =sesonwisetotalwickets+wickets
+        if (wickets>highestwicket):
+            highestwicket=wickets
+            highestwickettaker=ipldashboard[i][0]
+        if (runs>highestruns):
+            highestruns=runs
+            highestrunsgetter=ipldashboard[i][0]
+
+
+print("season wise total runs ",sesonwisetotal)
+print("season wise total wickets ",sesonwisetotalwickets)
+print("highest wicket ",highestwicket)
+print("highest wicket taker - purple cap ",highestwickettaker)
+print("highest runs ",highestruns)
+print("highest run getter - orange cap ",highestrunsgetter)
+
+'''
+Olympics Dashboard
+'''
+1. Dynamically build a olympics dashboard
+2. Find the total medals for every country
+3. Find the total gold won for a particular year
+4. Find the country which won maximum gold
+5. Find the medals won by a specific country

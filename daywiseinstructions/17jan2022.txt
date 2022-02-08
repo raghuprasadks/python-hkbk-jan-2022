@@ -1,0 +1,63 @@
+'''
+IPL Dashboard
+'''
+noofplayers = int(input("Enter num.. of players"))
+ipldashboard=[]
+iplheader=['playername','team','season','matches','runs','wickets']
+ipldashboard.append(iplheader)
+for i in range (noofplayers):
+    name=input("Enter name")
+    team = input("Enter team")
+    season = int(input("Enter season"))
+    matches =int(input("Enter no of matches played"))
+    runs = int(input("Enter no of runs scored"))
+    wickets = int(input("Enter no of wickets taken"))
+    player=[name,team,season,matches,runs,wickets]
+    ipldashboard.append(player)
+
+print("ipl dashboard")
+print(ipldashboard)
+
+Assignment:
+1. Find the total of runs scored for a specific season
+2. Find the total of wickets taken for a specific season
+3. Find the player who got purple cap (highest wickets) for a specific
+season
+4. Find the player who got orange cap (highest runs)
+for a specific season
+
+'''
+List - without built-in functions
+'''
+marks = [20,19,16,22,6]
+total = 0
+maximum = 0
+minimum = marks[0]
+counter = 0
+for i in marks:
+    total = total + i
+    if(i>maximum):
+        maximum = i
+    if(i<minimum):
+        minimum=i
+    counter = counter +1
+
+print("total is ",total)
+print("maximum is ",maximum)
+print("minimum is ",minimum)
+print("counter is ",counter)
+avg=total/counter
+print("Average is ",avg)
+
+
+
+
+
+
+
+
+
+
+
+
+

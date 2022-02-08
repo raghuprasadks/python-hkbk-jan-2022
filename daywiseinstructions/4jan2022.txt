@@ -1,0 +1,200 @@
+Agenda:
+Operators
+1. Arithmetic Operator
++,-,*,/,//,%,**
+7%5 =2
+2**3=
+2*2*2 = 8
+4/3 = 1.33
+4//3 = 1 (Floor division) 
+
+2. Relational/Comparision Operator
+>,<,>=,<=,==,!=
+3. Assignment
+=,+=,-=,*=,/= 
+4. Logical
+and ,or,not
+5. Bitwise
+&,|,^,>>,<<
+5&4
+101
+100
+
+download python
+https://www.python.org/downloads/
+idle
+pycharm
+community edition
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+"""
+ Operators
+1. Arithmetic Operator
+"""
+num1 = 100
+num2 = 200
+result = num1+num2
+print(num1," + ",num2, ' = ',result)
+result = num2/num1
+print(num2," / ",num1, ' / ',result)
+num3=10
+num4=3
+result = num3%num4
+print(num3," % ",num4, ' % ',result)
+result = num3//num4
+print(num3," // ",num4, ' // ',result)
+
+"""
+2. Comparision/Relational Operator
+>,<,>=,<=,==,!=
+"""
+num1=300
+num2=200
+num3=200
+print(" demo of > ",num1>num2)
+result = num2==num3
+print(" demo of == ",result)
+result = num2!=num3
+print(" demo of != ",result)
+result = num2>=num3
+print(" demo of >= ",result)
+
+"""
+3. Logical Operator
+and , or ,not
+"""
+
+num1= 100
+num2=75
+num3=50
+
+result = num1>num2 and num2>num3
+print("demo of and - True ",result)
+result = num1<num2 and num2>num3
+print("demo of and - False",result)
+result = not (num1>num2 and num2>num3)
+print("demo of not",result)
+sum = 100
+sum = sum +10
+print ("sum is ",sum)
+sum += 20
+#sum = sum +20
+print (" updated sum is ",sum)
+
+
+Loops
+
+print("Iam learning python")
+indentation
+
+while(condition):
+	statement1
+	statement2
+
+while (condition){
+statement1;
+statement2;
+}
+
+"""
+while loop
+"""
+start = 1
+end = 10
+while (start <=end):
+    print("Iam learning python")
+    start = start +1
+
+2
+4
+6
+8
+...
+20
+
+"""
+print 2's table
+"""
+print("2 table")
+start = 2
+end = 20
+while (start <=end):
+    print(start)
+    start = start +2
+20
+18
+16
+...
+2
+
+"""
+while loop
+"""
+start = 1
+end = 10
+while (start <=end):
+    print("Iam learning python")
+    start = start +1
+
+"""
+print 2's table
+"""
+print("2 table")
+start = 2
+end = 20
+while (start <=end):
+    print(start)
+    start = start +2
+"""
+print 2's table in reverse order
+"""
+print("2 table in reverse order")
+start = 20
+end = 2
+while (start >=end):
+    print(start)
+    start = start -2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

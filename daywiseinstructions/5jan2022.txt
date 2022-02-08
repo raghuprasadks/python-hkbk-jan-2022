@@ -1,0 +1,156 @@
+Agenda:
+for loop
+if,else
+input
+functions
+
+range(10)
+0,1,2...9
+range(1,11)
+1,2,...10
+range(2,21,2)
+2,4,6...20
+range(20,1,-2)
+20,18...2
+
+'''
+for loop
+'''
+print ("0 to 9")
+for i in range(10):
+    print(i)
+print("1 to 10")
+for i in range(1,11):
+    print(i)
+
+print("2 to 20")
+for i in range(2,21,2):
+    print(i)
+
+print("20 to 2")
+for i in range(20,1,-2):
+    print(i)
+
+break
+continue
+conditional statement
+if
+elif
+else
+
+age = 17
+
+if (age >= 18):
+    print("You are eligible to vote")
+else:
+    print("you are not eligible to vote")
+
+
+print(" break")
+for i in range (2,21,2):
+    if(i==10):
+        break
+    print(i)
+
+print(" continue")
+for i in range (2,21,2):
+    if(i==10):
+        continue
+    print(i)
+user inputs
+'''
+User input
+'''
+name = input("Enter your name")
+print("Your name is ",name)
+print("Data type of name is ",type(name))
+'''
+type casting - converting from one data type to
+another data type
+'''
+age=int(input("Enter your age"))
+print("Your age is ",age)
+print("Your age during next birth day ",age+1)
+amount=float(input("Enter purchase amount"))
+print("Purchase amount is ",amount)
+
+Functions
+def greet():
+    print("Welcome to python programming")
+
+greet()
+greet()
+def greet(name):
+    print(name, "Welcome to python programming")
+name = input("enter your name")
+greet(name)
+greet("Rahman")
+def evenOrOdd(num):
+    if(num %2 ==0):
+        print(num, "is even")
+    else:
+        print(num, "is odd")
+
+evenOrOdd(20)
+
+Assignments:
+
+1. Find the discount and net amount for
+online shopping based on the following
+advertisement.
+
+purchase amount <10000 - discount - 5%
+purchase amount >=10000 and <20000 - discount - 10 %
+purchase amount >=20000 and < 30000 - discount -15 %
+purchase amount > 30000 discount - 20 %
+
+You have to write a program by asking the 
+user about the purchase he/she has made.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Display grade based on the marks")
+marks = 80
+if (marks >90 and marks <=100):
+    print("A+")
+elif (marks >80 and marks <=90):
+    print("A")
+elif (marks >70 and marks <=80):
+    print("B+")
+elif (marks >60 and marks <=70):
+    print("B")
+else:
+    print("C")
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+1. A major hospital in Bengaluru is planning
+to develop a Corona Management System. It is looking
+for python developer to help them to develop that
+system.
+Requirements are as follows
+a. You have to develop an object oriented program
+to create,modify,update and list patients.
+You have to capture following information
+Patient Name,aadhar,email,mobile,address,city,zipcode
+b. You have to dynamically create list of patients
+with appropriate user inputs
+c. System should be able to search a patient
+based on aadhar number or name or mobile
+d. System should be able to update the address or mobile number
+based on their aadhar number
+
+2. A major callcenter in Bengaluru is planning
+to develop a Helpdesk Management System. It is looking
+for python developer to help them to develop that
+system.
+Requirements are as follows
+a. You have to develop an object oriented program
+to create,modify,update and list of help desk related calls.
+You have to capture following information
+Customer Name,date of call,Issue,Issue Description,status
+b. You have to dynamically create list of helpdesk calls
+with appropriate user inputs
+c. System should be able to search a call/s
+based on customer name or  Issue or status
+d. System should be able to update the status of the call
+Possible status are pending,assigned and resolved.
+ 
+
+

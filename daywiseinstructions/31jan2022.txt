@@ -1,0 +1,20 @@
+Oops
+class
+object
+constructor
+inheritance
+
+class - template/blueprint
+attributes/properties
+functionality
+
+class Calculator
+
+add
+subtract
+multiply
+divide
+
+
+class Product
+code,name,desc,manu,price

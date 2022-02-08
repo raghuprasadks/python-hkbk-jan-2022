@@ -1,0 +1,26 @@
+Dictionary
+
+key:value
+students={key1:value1,key2:value2}
+
+students={100:"Abdul",101:"Chandru",102:"Joseph"}
+key should be unique
+students={100:"Abdul",101:"Chandru",102:"Joseph",100:"Rahman"}
+students[104]="Raghu"
+students[105]="Gagan"
+students[100]="Abdul Khan"
+del students[100]
+
+
+2. Dictionary assignment
+
+Create a dynamic dictionary of result of BCA 2nd Semester
+key is regno
+value is a list =[hindi,english,c++,datastructure,dbms,nasm]
+1. Find the total marks for all the subjects
+2. Display the name of the topper
+3. Display the name of the person who got minimum marks
+
+
+
+

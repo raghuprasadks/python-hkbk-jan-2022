@@ -1,0 +1,87 @@
+'''
+Electricity Bill calculation
+'''
+def calculateEBill(units):
+    billamount=0
+    if(units<=100):
+        billamount = units*1
+    elif (units>100 and units<=200):
+        billamount= 100*1 + (units-100)*2
+    elif(units>200 and units<=300):
+        billamount=100 *1 + 100*2 +(units-200)*3
+    else:
+        billamount = 100 * 1 + 100 * 2 + 100*3 + (units - 300) * 4
+    print("You have consumed ",units," your bill is ",billamount)
+
+unitsconsumed = int(input("enter units consumed"))
+calculateEBill(unitsconsumed)
+sum=0
+num=125
+num%10=5
+num//10=12
+
+
+'''
+Sum of digits
+'''
+def SumOfDigits(num):
+    numentered=num
+    sum=0
+    while(num>0):
+        sum = sum + num%10
+        num=num//10
+    print("Sum of digits of ",numentered, " is ",sum)
+num = int(input("Enter a number"))
+SumOfDigits(num)
+
+def addition(num1,num2):
+    result = num1 + num2
+    return result
+def subtraction(num1,num2):
+    return num1-num2
+def multiply(num1,num2):
+    return num1*num2
+def division(num1,num2):
+    return num1/num2
+oper = input("Enter the operation +,-,*,/")
+num1 = int(input("Enter first number"))
+num2 = int(input("Enter second number"))
+result = 0
+if(oper=='+'):
+    result = addition(num1,num2)
+elif (oper=='-'):
+    result = subtraction(num1,num2)
+elif (oper=='*'):
+    result = multiply(num1,num2)
+elif (oper=='/'):
+    result = division(num1,num2)
+else:
+    print("invalid operation")
+print("result of ",num1, " ",oper,num2," is ",result)
+
+Assignment:
+
+
+Assignments
+1. Write a program to find a given number is palindrome or not.
+Inform the user to enter the number thorough input
+Example:
+121 when reversed you will get 121. This is a palindrome
+131,141
+2. Write a program to generate fibanacci series.
+Inform the user to enter the number of terms.
+Example:
+If the number of terms is 6 then the generated 
+series is 
+0 1 1 2 3 5 
+3. Create a dynamic list of iplplayers
+fields - playername,team,season,matches,runs,wickets
+Virat,RCB,2021,10,400,0
+KL Rahul,KXIP,2021,11,516,0
+
+
+
+
+
+
+
