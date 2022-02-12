@@ -1,0 +1,47 @@
+https://www.edureka.co/blog/socket-programming-python/
+
+Agenda
+
+1.Exception
+2.Lambda Functions..
+3.Package
+4. Socket programming
+5 .Network programming
+6. GUI - Graphical User Interface
+using TKInter
+
+Exception Handling
+
+Program there is no compilation error
+Execute the program then program will
+terminate abnormally
+Divide  a number by zero
+
+num = int(input("Enter a number"))
+result = 100/num
+print("Result is ",result)
+
+improper input
+array index out of exception
+marks=[20,30,38,60]
+marks[5]
+
+null pointer
+Handling error
+try
+except
+finally
+raise
+
+2. Lambda Functions
+
+def add(num1,num2):
+	return num1+num2
+
+total = add(10,20)
+print("total ",total)
+Lamdda is annoymous function
+nameless function
+total =lambda (num1,num2):num1+num2
+total(10,20)
+map,filter,reduce
